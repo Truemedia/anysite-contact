@@ -26,6 +26,11 @@ class ContactServiceProvider extends ServiceProvider {
 
 		// View directory
 		$this->loadViewsFrom($root_dir . 'views', 'contact');
+
+		// Publish public folder when vendor:publish command is used
+		$this->publishes([
+		    $root_dir . '/../public' => public_path('packages/contact'),
+		], 'public');
 	}
 
 	/**
