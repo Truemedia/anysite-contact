@@ -20,6 +20,10 @@ Run the package install command
 
 	php artisan contact:install
 
+Publish package assets
+
+	php artisan vendor:publish
+
 ### Usage ###
 
 This package has several pages with many features
