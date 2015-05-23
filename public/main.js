@@ -1,4 +1,4 @@
-import {Package} from 'core/package';
+import {Package} from 'src/core/package';
 
 import {nls} from './nls/strings';
 
